@@ -24,8 +24,8 @@ Post.init(
       defaultValue: DataTypes.NOW,
     },
     votes: {
-      type: DataTypes.FLOAT,
-      defaultValue: 1.00,
+      type: DataTypes.INT,
+      defaultValue: 1,
     },
     user_id: {
       type: DataTypes.INTEGER,
